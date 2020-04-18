@@ -24,6 +24,7 @@
     "prettier"
   ],
   "rules": {
+    "no-await-in-loop": "off",
     "no-underscore-dangle": "off",
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
@@ -31,6 +32,7 @@
     "@typescript-eslint/no-unused-vars": ["error", {
       "argsIgnorePattern": "_"
     }],
+    "no-restricted-syntax": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
